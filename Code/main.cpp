@@ -26,12 +26,9 @@ int main () {
 
     currentrounds(rounds);
 
-
-
-    /* char BlueCorner[50], RedCorner[50];
+    char BlueCorner[50], RedCorner[50];
     
     std::cout << "This program is intended to help score boxing" << std::endl;
-    std::cin << 
     
     
    
@@ -44,20 +41,4 @@ int main () {
         
 
    
-   while(int rounds; rounds<=12; rounds++; ) { // This helps compare three numbers...checks if we have rounds that are  between 1 and 12
-        cin >> rounds;
-        cout << "Who's in the Blue corner? ";
-    }
-        cin >> BlueCorner;
-        cout << "Who is in the Red corner? ";
-        cin >> RedCorner;
-        }
-
-            cin >> rounds;
-        
-        }
-   
-   */
-        
-       //  cout << "Who won round" << currentround << "?"; // Cool, so this displays regarless of the number we input.
-}
+  
