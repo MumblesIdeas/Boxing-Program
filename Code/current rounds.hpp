@@ -10,6 +10,6 @@
 
 #include <stdio.h>
 
-int currentrounds (int &rounds);
+int currentrounds(int &rounds);
 
 #endif /* current_rounds_hpp */

@@ -42,6 +42,9 @@
 // Once this happens...
 // I need to return the the total score of Boxer A
 // and
-// I need to return teh totral score of Boxer B
+// I need to return the total score of Boxer B
 // and then compare the two to give us the winner of a fight. 
 //
+
+
+
