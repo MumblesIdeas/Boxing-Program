@@ -5,6 +5,7 @@
 //  Created by Juan Segundo on 3/30/22.
 //
 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "current rounds.hpp"
@@ -12,7 +13,7 @@
 
 int currentrounds()
 {
-
+    
     int four_rounds = 4;
     int six_rounds = 6;
     int eight_rounds = 8;    

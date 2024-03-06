@@ -1,11 +1,14 @@
-//
 //  main.cpp
 //  Boxing Scoring
 //
 //  Created by Juan Segundo on 12/17/21.
+
 /*
 
-Program to score boxing. Rounds have to be [1,12]. Anything greater 12 or less than 1.
+Program to score boxing.
+
+Rounds have to be [1,12].
+Anything greater 12 or less than 1.
 Helps you
 
 How many rounds?
