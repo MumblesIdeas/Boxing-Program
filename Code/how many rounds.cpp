@@ -1,10 +1,6 @@
-//
 //  current rounds.cpp
 //  Boxing Program
-//
 //  Created by Juan Segundo on 3/30/22.
-//
-
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,19 +9,19 @@
 
 int currentrounds()
 {
+  int four_rounds = 4;
+  int six_rounds = 6;
+  int eight_rounds = 8;    
+  int ten_rounds = 10;
+  int twelve_rounds = 12;
+  int diff_rounds;
     
-    int four_rounds = 4;
-    int six_rounds = 6;
-    int eight_rounds = 8;    
-    int ten_rounds = 10;
-    int twelve_rounds = 12;
-    int other_rounds = O_R; // I am not sure how to set this part up.
     /*
     For other_rounds, I think I can use an if-statement
     
     */
 
-    (other_rounds > 0) && (other_rounds <= 12); // other_rounds has to be greater than zero, but less than or equal to twelve...rounds are between 1 and 12 rounds.
+    (diff_rounds > 0) && (other_rounds <= 12); // other_rounds has to be greater than zero, but less than or equal to twelve...rounds are between 1 and 12 rounds.
 
     std::cout << "How many rounds is this fight?" << std:: endl <<;
     int rounds;
@@ -36,16 +32,21 @@ int currentrounds()
 
     Can I use switch statements?
 
+    There has to be a better way to optimize this?
+
+    std::cout << "This bout is for " << std::end;
+    std::cin >> diff_rounds;
+    std::cout << "Correct?" << std::end;
     
-    std::cout << "This bout is for  _rounds. Correct?" << std::end;
-    std::cout << "This bout is for  _rounds. Correct?" << std::end;
-    std::cout << "This bout is for  _rounds. Correct?" << std::end;
-    std::cout << "This bout is for  _rounds. Correct?" << std::end;
-    std::cout << "This bout is for  _rounds. Correct?" << std::end;
-    std::cout << "This bout is for  _rounds. Correct?" << std::end;
     
     */
     
+
+    /*
+    What is
+    
+    
+    */
     
     /*
     
@@ -88,9 +89,4 @@ int currentrounds()
 }
 
 cin >> rounds;
-
-* /
-
-    //  cout << "Who won round" << currentround << "?"; // Cool, so this displays regarless of the number we input.
-
-
+ //  cout << "Who won round" << currentround << "?"; // Cool, so this displays regarless of the number we input.
